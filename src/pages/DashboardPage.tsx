@@ -52,7 +52,7 @@ const DashboardPage = () => {
             </h1>
             <p className="text-slate-400 text-lg leading-relaxed">
               Manage your organization's obligations under India's Digital Personal Data Protection Act.
-              Ensure compliance as a Data Fiduciary with DP2Guard.
+              Ensure compliance as a Data Fiduciary with DataKavatch.
             </p>
             <div className="flex flex-wrap gap-4 mt-8">
               <div className="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-2xl border border-white/10">
@@ -226,10 +226,10 @@ const DashboardPage = () => {
         <div className="text-center space-y-4 pt-10">
           <div className="inline-flex items-center gap-3 px-6 py-2 bg-slate-100 rounded-full border border-slate-200 hover:scale-105 transition-transform cursor-help group">
             <Lock className="h-4 w-4 text-primary group-hover:rotate-12 transition-transform" />
-            <span className="text-xs font-bold text-slate-600 tracking-tight">Secure & Audited Interface by DP2Guard Sentinel</span>
+            <span className="text-xs font-bold text-slate-600 tracking-tight">Secure & Audited Interface by DataKavatch Sentinel</span>
           </div>
           <p className="text-xs text-slate-400 max-w-sm mx-auto leading-relaxed italic">
-            "Ensure compliance. Protect your customers' data. DP2Guard helps Data Fiduciaries meet all DPDP Act obligations."
+            "Ensure compliance. Protect your customers' data. DataKavatch helps Data Fiduciaries meet all DPDP Act obligations."
           </p>
         </div>
 

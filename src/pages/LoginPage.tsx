@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/card";
 import { Shield, Eye, EyeOff, LogIn, Building2 } from "lucide-react";
 
-export const LoginPage = () => {
+const LoginPage = () => {
 	const { login, demoLogin } = useAuth();
 	const navigate = useNavigate();
 	const [email, setEmail] = useState("");
@@ -143,7 +143,7 @@ export const LoginPage = () => {
                 className="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 border-none"
                 onClick={handleDemoLogin}
               >
-                <Shield className="h-4 w-4 mr-2" /> Demo Login (No Backend)
+                <Shield className="h-4 w-4 mr-2" /> Demo Login
               </Button>
 
               <div className="relative my-6">
@@ -209,3 +209,5 @@ export const LoginPage = () => {
     </div>
   );
 };
+
+export default LoginPage;

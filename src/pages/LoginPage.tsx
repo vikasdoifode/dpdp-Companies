@@ -56,11 +56,11 @@ const LoginPage = () => {
           <div className="flex items-center justify-center gap-2 mb-2">
             <Building2 className="h-4 w-4 text-primary" />
             <span className="text-sm font-bold text-primary uppercase tracking-widest">
-              Company Portal
+              DataKavatch for Business
             </span>
           </div>
           <p className="text-muted-foreground text-sm">
-            Data Fiduciary Dashboard · DPDP Act 2023 Compliant
+            Enterprise Data Compliance Dashboard
           </p>
         </div>
 
